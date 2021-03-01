@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donella</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header-top">
+
+        <div class="logo-items">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="logo-cli">
+                <button class="cli-inner">Клиентам<img src="img/dropdown.png" alt=""></button>
+                <ul class="logo-cli-list">
+                    <li class="logo-cli-item"><a href="#">Клиентам</a>
+                    </li>
+                    <li class="logo-cli-item"><a href="#">Клиентам</a>
+                    </li>
+                    <li class="logo-cli-item"><a href="#">Клиентам</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="work-phone__items">
+            <ul class="work-list">
+                <li class="work-item">
+                    <img src="img/clock-icone.svg" alt="">
+                    <span> Робочие дни:</span> Пн-Пт с 9.00 - 18.00
+                </li>
+                <li class="work-item">
+                    <img src="img/clock-icone.svg" alt=""> <span>Выходные:</span> Сб-Вс
+                </li>
+            </ul>
+            <ul class="phone-list">
+                <li class="phone-item">
+                    <img src="img/phone-icone.svg" alt="">
+                    <a class="phone-link" href="tel:+380983454345">
+                        +38(098) 34-54-345
+                    </a>
+                </li>
+                <li class="phone-item">
+                    <img src="img/phone-icone.svg" alt="">
+                    <a class="phone-link" href="tel:+380983454345">
+                        +38(098) 34-54-345
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- lang -->
+        <div class="lang-items">
+            <ul onclick="myFunction()" class="lang-list">РУС<img src="img/dropdown.png " alt="dropdown ">
+
+                <li id="langDropdown" class="lang-item ">
+                    <a href=" #" class="lang-link ">РУС</a>
+                    <a href="#" class="lang-link ">укр</a>
+                    <a href="#">укр</a>
+                </li>
+            </ul>
+        </div>
+        <!-- user -->
+        <div class="user-items ">
+            <ul class="user-list ">
+                <li class="user-item ">
+                    <img src="img/search.svg " alt=" ">
+                </li>
+                <li class="user-item ">
+                    <a href="# " class="user-link ">
+                        <img src="img/user-icone.svg " alt=" ">
+                    </a>
+                </li>
+                <li class="user-item ">
+                    <img src="img/corz.svg " alt=" ">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- menu -->
+    <nav class="menu ">
+        <div class="container ">
+            <div class="menu-inner ">
+                <ul class="menu-list ">
+                    <li class="menu-item "><a href="#" class="menu-link ">Женская одежда</a></li>
+                    <li class="menu-item "><a href="#" class="menu-link ">Мужская одежда</a></li>
+                    <li class="menu-item "><a href="#" class="menu-link ">Детская одежда</a></li>
+                    <li class="menu-item "><a href="#" class="menu-link ">Для дома</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end menu -->
+
+    <!-- breadcrumb -->
+    <ul class="breadcrumb">
+        <div class="container">
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link" href="#">Главная</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link" href="#">Мужская одежда</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link link-active" href="#">Мужские футболки</a>
+            </li>
+        </div>
+    </ul>
+    <!-- end breadcrumb -->
+
+
+    <!-- fulter -->
+    <div class="wrapper">
+        <div class="content">
+            <div class="content-filter">
+                <!-- filter category -->
+                <div class="filter-category">
+                    <button class="accordion">
+                        <h3 class="filter-category__title">Категории</h3>
+                    </button>
+                    <div class="panel">
+                        <ul class="filter-list">
+                            <button class="accordion">
+                                <h5 class="sub__filter-title">Женское белье</h5>
+                            </button>
+                            <div class="panel">
+                                <!-- list category -->
+                            </div>
+                            <!-- sub filter -->
+                            <li class="sub__filter-inner">
+                                <button class="accordion">
+                                    <h5 class="sub__filter-title">Мужское белье</h5>
+                                </button>
+                                <div class="panel">
+                                    <ul class="sub__filter-list">
+                                        <li class="sub__filter-item"><a href="#">Майки мужские</a></li>
+                                        <li class="sub__filter-item"><a href="#">Трусы мужские</a></li>
+                                        <li class="sub__filter-item"><a href="#">Мужские носки</a></li>
+                                        <li class="sub__filter-item"><a href="#">Мужские футболки</a></li>
+                                        <li class="sub__filter-item"><a href="#">Рубашки мужские</a></li>
+                                        <li class="sub__filter-item"><a href="#">Мужские толстовки</a></li>
+                                        <li class="sub__filter-item"><a href="#">Мужские свитера, пуловеры</a></li>
+                                        <li class="sub__filter-item"><a href="#">Мужские штаны</a></li>
+                                        <li class="sub__filter-item"><a href="#">Мужские пижамы</a></li>
+                                        <li class="sub__filter-item"><a href="#">Теплое, Термобелье</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end sub filter -->
+                            <button class="accordion">
+                                <h5 class="sub__filter-title">Детское белье</h5>
+                            </button>
+                            <div class="panel">
+                            </div>
+                            <button class="accordion">
+                                <h5 class="sub__filter-title">Для дома</h5>
+                            </button>
+                            <div class="panel">
+                            </div>
+                            <!-- line -->
+                            <div class="filter-line">
+                                <span></span>
+                            </div>
+                            <!-- end line -->
+                            <!-- price -->
+                            <div class="price">
+                                <button class="accordion">
+                                    <h3 class="filter-category__title">Цена:</h3>
+                                </button>
+                                <div class="panel">
+
+                                    <div class="price-form">
+                                        <div class="price-form__ot">
+                                            <span>от</span>
+                                            <input class="price-input" type="text" placeholder="200" />
+                                        </div>
+                                        <div class="price-form__do">
+                                            <span>до</span>
+                                            <input class="price-input" type="text" placeholder="" />
+                                        </div>
+
+                                        <div class="price-form__cyrrency">
+                                            <span> &#8372;</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="category-line">
+                                        <div class="category-element">
+                                            <span></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- line -->
+                                    <div class="filter-line">
+                                        <span></span>
+                                    </div>
+                                    <!-- end line -->
+                                </div>
+                            </div>
+                            <!-- end price -->
+
+                            <!-- materials -->
+                            <div class="filter-materials">
+                                <button class="accordion">
+                                    <h5 class="filter-category__title">Материал:</h5>
+                                </button>
+                                <div class="panel">
+                                    <div class="materials-form">
+                                        <div class="materials-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-1">
+                                            <label for="color-1">Лен</label>
+                                        </div>
+
+                                        <div class="materials-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-2">
+                                            <label for="color-2">Хлопок</label>
+                                        </div>
+
+                                        <div class="materials-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-3">
+                                            <label for="color-3">Вискоза</label>
+                                        </div>
+
+                                        <div class="materials-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-4">
+                                            <label for="color-4">Кулир</label>
+                                        </div>
+
+                                        <div class="materials-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-5">
+                                            <label for="color-5">Кулир</label>
+                                        </div>
+
+                                        <div class="materials-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-6">
+                                            <label for="color-6">Микролакоста</label>
+                                        </div>
+                                        <div class="category-line">
+                                            <div class="category-element">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- line -->
+                                    <div class="filter-line">
+                                        <span></span>
+                                    </div>
+                                    <!-- end line -->
+                                </div>
+                            </div>
+                            <!-- end material -->
+                            <!-- color -->
+                            <div class="filter-color">
+                                <button class="accordion">
+                                    <h5 class="filter-category__title">Цвет:</h5>
+                                </button>
+                                <div class="panel">
+                                    <div class="color-form">
+                                        <a href="#">
+                                            <input class="color-checkbox" type="checkbox" id="color-7">
+
+                                            <label for="color-7"><span class="color-elipse color-black"></span>  Черный</label>
+                                            <div class="colors-checkbox">
+                                        </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="colors-checkbox">
+                                        <input class="color-checkbox" type="checkbox" id="color-8">
+                                        <label for="color-8"><span class="color-elipse color-white"></span>Белый</label>
+                                    </div>
+
+                                    <div class="colors-checkbox">
+                                        <input class="color-checkbox" type="checkbox" id="color-9">
+                                        <label for="color-9"><span class="color-elipse color-gray"></span>Серый</label>
+                                    </div>
+
+                                    <div class="colors-checkbox">
+                                        <input class="color-checkbox" type="checkbox" id="color-10">
+                                        <label for="color-10"><span class="color-elipse color-red"></span>Красный</label>
+                                    </div>
+
+                                    <div class="colors-checkbox">
+                                        <input class="color-checkbox" type="checkbox" id="color-11">
+                                        <label for="color-11"><span class="color-elipse color-blue "></span>Синий</label>
+                                    </div>
+
+                                    <!-- sub color accordion -->
+                                    <button class="accordion">
+                                        <h5 class="sub-color"><span></span></h5>
+                                    </button>
+                                    <div class="panel sub-box">
+
+                                        <div class="colors-checkbox">
+                                            <input class="color-checkbox" type="checkbox" id="color-10">
+                                            <label for="color-10"><span class="color-elipse color-red"></span>Красный</label>
+                                        </div>
+
+                                        <div class="colors-checkbox">
+                                            <input class="color-checkbox" type="checkbox" id="color-11">
+                                            <label for="color-11"><span class="color-elipse color-blue"></span>Синий</label>
+                                        </div>
+                                    </div>
+                                    <!-- end sub color accordion -->
+                                    <!-- line -->
+                                    <div class="filter-line filter-sub__line">
+                                        <span></span>
+                                    </div>
+                                    <!-- end line -->
+                                </div>
+                            </div>
+                            <!-- end color -->
+                            <!-- size -->
+                            <div class="filter-sizes">
+                                <button class="accordion">
+                                    <h5 class="filter-category__title">Размер:</h5>
+                                </button>
+                                <div class="panel">
+                                    <div class="sizes-form">
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-12">
+                                            <label for="color-12">S</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-13">
+                                            <label for="color-13">M</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-14">
+                                            <label for="color-14">L</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-15">
+                                            <label for="color-15">XL</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-16">
+                                            <label for="color-16">2XL</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-17">
+                                            <label for="color-17">XXL</label>
+                                        </div>
+                                        <!-- <div class="category-line">
+                                            <div class="category-element">
+                                                <span></span>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <!-- line -->
+                                    <div class="filter-line">
+                                        <span></span>
+                                    </div>
+                                    <!-- end line -->
+                                </div>
+                            </div>
+                            <!-- end size -->
+                            <!-- brend -->
+                            <div class="filter-sizes">
+                                <button class="accordion">
+                                    <h5 class="filter-category__title">Размер:</h5>
+                                </button>
+                                <div class="panel">
+                                    <div class="sizes-form">
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-12">
+                                            <label for="color-12">S</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-13">
+                                            <label for="color-13">M</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-14">
+                                            <label for="color-14">L</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-15">
+                                            <label for="color-15">XL</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-16">
+                                            <label for="color-16">2XL</label>
+                                        </div>
+
+                                        <div class="sizes-checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-17">
+                                            <label for="color-17">XXL</label>
+                                        </div>
+                                        <!-- sub color accordion -->
+                                        <button class="accordion">
+                                        <h5 class="sub-color"><span></span></h5>
+                                    </button>
+                                        <div class="panel sub-box">
+
+                                            <div class="colors-checkbox">
+                                                <input class="color-checkbox" type="checkbox" id="color-10">
+                                                <label for="color-10"><span class="color-elipse color-red"></span>Красный</label>
+                                            </div>
+
+                                            <div class="colors-checkbox">
+                                                <input class="color-checkbox" type="checkbox" id="color-11">
+                                                <label for="color-11"><span class="color-elipse color-blue"></span>Синий</label>
+                                            </div>
+                                        </div>
+                                        <!-- end sub color accordion -->
+                                    </div>
+                                    <!-- line -->
+                                    <div class="filter-line">
+                                        <span></span>
+                                    </div>
+                                    <!-- end line -->
+                                </div>
+                            </div>
+                            <!-- end brend -->
+                    </div>
+                </div>
+                <!-- end filter category -->
+            </div>
+            <!-- end content filter -->
+            <!-- content slider -->
+            <div class="content-slider">
+                <h3 class="slider-title">Мужские футболки</h3>
+                <div class="slider-content">
+                    <div class="slider-content__right">
+                        <!-- <img src="img/element-left__1.png" alt=""> -->
+
+                        <span></span>
+                    </div>
+                    <div class="slider-content__left">
+                        <div class="content-top">
+                            <ul class="content-top__list">
+                                <!-- cart -->
+                                <a class="content-top__link" href="#">
+                                    <li class="content-top__item"><img src="img/element-top__1.png" alt="">
+                                        <div class="content-top__items">
+                                            <p>Мужские свитера, пуловеры
+                                            </p>
+                                        </div>
+                                    </li>
+                                </a>
+                                <!-- cart -->
+
+                                <!-- cart -->
+                                <a class="content-top__link" href="#">
+                                    <li class="content-top__item"><img src="img/element-top__1.png" alt="">
+                                        <div class="content-top__items">
+                                            <p>Мужские свитера, пуловеры
+                                            </p>
+                                        </div>
+                                    </li>
+                                </a>
+                                <!-- cart -->
+
+
+                                <!-- cart -->
+                                <a class="content-top__link" href="#">
+                                    <li class="content-top__item"><img src="img/element-top__1.png" alt="">
+                                        <div class="content-top__items">
+                                            <p>Мужские свитера, пуловеры
+                                            </p>
+                                        </div>
+                                    </li>
+                                </a>
+                                <!-- cart -->
+
+                                <!-- cart -->
+                                <a class="content-top__link" href="#">
+                                    <li class="content-top__item"><img src="img/element-top__1.png" alt="">
+                                        <div class="content-top__items">
+                                            <p>Мужские свитера, пуловеры
+                                            </p>
+                                        </div>
+                                    </li>
+                                </a>
+                                <!-- cart -->
+                            </ul>
+                        </div>
+
+
+
+                        <div class="content-bottom">
+
+                            <ul class="content-top__list">
+                                <!-- cart -->
+                                <a class="content-top__link" href="#">
+                                    <li class="content-top__item"><img src="img/element-top__1.png" alt="">
+                                        <div class="content-top__items">
+                                            <p>Мужские свитера, пуловеры
+                                            </p>
+                                        </div>
+                                    </li>
+                                </a>
+                                <!-- cart -->
+
+                                <!-- cart -->
+                                <a class="content-top__link" href="#">
+                                    <li class="content-top__item"><img src="img/element-top__1.png" alt="">
+                                        <div class="content-top__items">
+                                            <p>Мужские свитера, пуловеры
+                                            </p>
+                                        </div>
+                                    </li>
+                                </a>
+                                <!-- cart -->
+
+
+                                <!-- cart -->
+                                <a class="content-top__link" href="#">
+                                    <li class="content-top__item"><img src="img/element-top__1.png" alt="">
+                                        <div class="content-top__items">
+                                            <p>Мужские свитера, пуловеры
+                                            </p>
+                                        </div>
+                                    </li>
+                                </a>
+                                <!-- cart -->
+
+                                <!-- cart -->
+                                <a class="content-top__link" href="#">
+                                    <li class="content-top__item"><img src="img/element-top__1.png" alt="">
+                                        <div class="content-top__items">
+                                            <p>Мужские свитера, пуловеры
+                                            </p>
+                                        </div>
+                                    </li>
+                                </a>
+                                <!-- cart -->
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="plowing">
+                    <p class="plowing-text">Сортировать по: <a href="#">Цене (по возрастанию)</a>
+                        <img src="img/dropdown.png" alt="">
+                    </p>
+
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="js/libs.min.js "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>
